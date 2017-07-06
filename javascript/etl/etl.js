@@ -5,7 +5,7 @@ class ETL {
         let scores = Object.keys(old);
         scores.forEach(score => {
             let letters = old[score];
-            letters.map(letter => retVal[letter.toLowerCase()] = parseInt(score));
+            letters.forEach(letter => retVal[letter.toLowerCase()] = parseInt(score));
         });
         return retVal;
     }
