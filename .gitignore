@@ -1,3 +1,4 @@
-.vscode
-javascript/tsconfig.json
-javascript/launch.json
+javascript/**/.vscode
+!javascript/.vscode
+javascript/**/tsconfig.json
+!javascript/tsconfig.json
